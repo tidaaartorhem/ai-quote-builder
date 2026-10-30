@@ -1,4 +1,4 @@
-/* EvidenceBoard — light mode only. Minimal ops-desk aesthetic. */
+/* QuoteDesk — light mode only. Minimal ops-desk aesthetic. */
 
 :root {
   --bg: #f6f7f9;
@@ -122,6 +122,7 @@ body {
 .table th, .table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .table th { font-size: 12px; color: var(--ink-faint); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
 .table tr.row-miss td { background: var(--bad-soft); }
+.table.narrow { max-width: 420px; }
 
 .pill { display: inline-flex; align-items: center; font-size: 11.5px; font-weight: 700; padding: 3px 10px; border-radius: 999px; border: 1px solid transparent; white-space: nowrap; }
 .pill.ok { background: var(--ok-soft); color: var(--ok); border-color: #bfe6cf; }
