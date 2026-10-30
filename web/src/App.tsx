@@ -6,7 +6,7 @@ import DataView from "./views/DataView";
 import "./styles.css";
 
 const REPO_URL = "https://github.com/tidaaartorhem/ai-quote-builder";
-const LIVE_URL = "https://ai-quote-builder.web.app";
+const LIVE_URL = "https://ai-quote-builder-app.web.app";
 
 type Tab = "board" | "paste" | "data";
 

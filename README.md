@@ -1,6 +1,6 @@
 # QuoteDesk — the quote desk for contractors and distributors
 
-**Live:** https://ai-quote-builder.web.app · **Repo:** https://github.com/tidaaartorhem/ai-quote-builder
+**Live:** https://ai-quote-builder-app.web.app · **Repo:** https://github.com/tidaaartorhem/ai-quote-builder
 
 ## The problem
 
@@ -92,7 +92,7 @@ full price book.
 
 ## Deploy
 
-Firebase Hosting (`ai-quote-builder.web.app`); data endpoints at
+Firebase Hosting (`ai-quote-builder-app.web.app`); data endpoints at
 `data/pricebook.json`, `data/quotes.json`, `data/summary.json`,
 `data/test-vectors.json`, `data/stamp.json`.
 
