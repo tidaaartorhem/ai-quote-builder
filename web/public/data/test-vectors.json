@@ -92,52 +92,72 @@
   "fixture_catalog": [
     {
       "description": "WHITE HANGING HEART T-LIGHT HOLDER",
+      "median_price": 2.5,
       "stock_code": "10001",
+      "transactions": 10,
       "unit_cents": 250
     },
     {
       "description": "RED RETROSPOT MUG",
+      "median_price": 1.95,
       "stock_code": "10002",
+      "transactions": 10,
       "unit_cents": 195
     },
     {
       "description": "SET OF 6 T-LIGHTS SANTA",
+      "median_price": 4.25,
       "stock_code": "10003",
+      "transactions": 10,
       "unit_cents": 425
     },
     {
       "description": "JUMBO BAG PINK POLKADOT",
+      "median_price": 1.95,
       "stock_code": "10004",
+      "transactions": 10,
       "unit_cents": 195
     },
     {
       "description": "BLUE BUNTING",
+      "median_price": 5.95,
       "stock_code": "10005",
+      "transactions": 10,
       "unit_cents": 595
     },
     {
       "description": "VINTAGE UNION JACK CUSHION COVER",
+      "median_price": 4.95,
       "stock_code": "10006",
+      "transactions": 10,
       "unit_cents": 495
     },
     {
       "description": "WOODEN PICTURE FRAME WHITE FINISH",
+      "median_price": 2.75,
       "stock_code": "10007",
+      "transactions": 10,
       "unit_cents": 275
     },
     {
       "description": "CERAMIC CAKE STAND",
+      "median_price": 12.95,
       "stock_code": "10008",
+      "transactions": 10,
       "unit_cents": 1295
     },
     {
       "description": "DOORMAT UNION JACK GUNS AND ROSES",
+      "median_price": 7.95,
       "stock_code": "10009",
+      "transactions": 10,
       "unit_cents": 795
     },
     {
       "description": "HOT WATER BOTTLE TEA AND SYMPATHY",
+      "median_price": 4.65,
       "stock_code": "10010",
+      "transactions": 10,
       "unit_cents": 465
     }
   ],

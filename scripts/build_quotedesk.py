@@ -309,28 +309,23 @@ def build(xlsx: Path) -> dict:
 
 # ------------------------------------------------------- test vectors
 
-FIXTURE_CATALOG = [
-    {"stock_code": "10001",
-     "description": "WHITE HANGING HEART T-LIGHT HOLDER", "unit_cents": 250},
-    {"stock_code": "10002", "description": "RED RETROSPOT MUG",
-     "unit_cents": 195},
-    {"stock_code": "10003", "description": "SET OF 6 T-LIGHTS SANTA",
-     "unit_cents": 425},
-    {"stock_code": "10004", "description": "JUMBO BAG PINK POLKADOT",
-     "unit_cents": 195},
-    {"stock_code": "10005", "description": "BLUE BUNTING", "unit_cents": 595},
-    {"stock_code": "10006",
-     "description": "VINTAGE UNION JACK CUSHION COVER", "unit_cents": 495},
-    {"stock_code": "10007",
-     "description": "WOODEN PICTURE FRAME WHITE FINISH", "unit_cents": 275},
-    {"stock_code": "10008", "description": "CERAMIC CAKE STAND",
-     "unit_cents": 1295},
-    {"stock_code": "10009",
-     "description": "DOORMAT UNION JACK GUNS AND ROSES", "unit_cents": 795},
-    {"stock_code": "10010",
-     "description": "HOT WATER BOTTLE TEA AND SYMPATHY", "unit_cents": 465},
+_FIX = [
+    ("10001", "WHITE HANGING HEART T-LIGHT HOLDER", 250),
+    ("10002", "RED RETROSPOT MUG", 195),
+    ("10003", "SET OF 6 T-LIGHTS SANTA", 425),
+    ("10004", "JUMBO BAG PINK POLKADOT", 195),
+    ("10005", "BLUE BUNTING", 595),
+    ("10006", "VINTAGE UNION JACK CUSHION COVER", 495),
+    ("10007", "WOODEN PICTURE FRAME WHITE FINISH", 275),
+    ("10008", "CERAMIC CAKE STAND", 1295),
+    ("10009", "DOORMAT UNION JACK GUNS AND ROSES", 795),
+    ("10010", "HOT WATER BOTTLE TEA AND SYMPATHY", 465),
 ]
-
+FIXTURE_CATALOG = [
+    {"stock_code": c, "description": d, "median_price": u / 100,
+     "unit_cents": u, "transactions": 10}
+    for c, d, u in _FIX
+]
 PARSE_VECTORS = [
     ("qty-x-form", "3x WHITE HANGING HEART T-LIGHT HOLDER",
      False, 3, "WHITE HANGING HEART T-LIGHT HOLDER"),
