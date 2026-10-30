@@ -1,0 +1,5 @@
+# QuoteDesk: LangGraph workflow + pandas ingest + pytest suite.
+langgraph>=0.6
+pandas>=2.0
+openpyxl>=3.1
+pytest>=8.0
